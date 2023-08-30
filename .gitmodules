@@ -1,0 +1,6 @@
+[submodule "libepoxy"]
+	path = libepoxy
+	url = https://github.com/anholt/libepoxy
+[submodule "virglrenderer"]
+	path = virglrenderer
+	url = https://gitlab.freedesktop.org/virgl/virglrenderer
