@@ -20,6 +20,9 @@ jobs:
     name: "Build"
     runs-on: ubuntu-latest
     steps:
+    - name: Installing ninja
+      run: |
+        sudo apt install ninja-build
     - name: Clone repository
       uses: actions/checkout@v3
       with:
